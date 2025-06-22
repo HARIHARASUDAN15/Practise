@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        .header {
+            background-color: #99CC33;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            color: green;
+            font-family: 'Comic Sans MS';
+        }
+
+        /* Navigation Bar */
+        .nav {
+            background-color: #99CC33;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .nav a {
+            padding: 14px 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .nav a:hover {
+            background-color: #b8db4a;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background-color: #FFE4B5;
+            width: 15%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar a {
+            display: block;
+            margin-bottom: 15px;
+            text-decoration: none;
+            color: purple;
+            font-weight: bold;
+        }
+
+        .main {
+            background-color: #FFA500;
+            padding: 40px;
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        /* Layout */
+        .content {
+            display: flex;
+            min-height: 400px;
+        }
+
+        .welcome-title {
+            color: blue;
+            font-size: 24px;
+        }
+
+        .subtitle {
+            color: red;
+            font-family: 'Courier New';
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Online Book Store</h1>
+        <p><b>Created & Maintained By SUBBULAKSHMI</b></p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <a href="home.html">HOME</a>
+        <a href="login.html">LOGIN</a>
+        <a href="registration.html">REGISTER</a>
+        <a href="catalogue.html">CATALOGUE</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="cs.html">CS</a>
+            <a href="it.html">IT</a>
+            <a href="bca.html">BCA</a>
+            <a href="ai.html">AI</a>
+        </div>
+
+        <!-- Main Welcome Section -->
+        <div class="main">
+            <div class="welcome-title"><b>Welcome to the Online Book Store!!!</b></div>
+            <div class="subtitle"><b>"A Huge Collection Of Engineering E-Books"</b></div>
+        </div>
+    </div>
+
+</body>
+</html>
